@@ -1,0 +1,1 @@
+# This workflow runs the configured unit tests after installing tSQLt on a SQL Server instance inside a Docker container!
