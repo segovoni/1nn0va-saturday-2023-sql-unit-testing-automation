@@ -1,1 +1,16 @@
 # This workflow runs the configured unit tests after installing tSQLt on a SQL Server instance inside a Docker container!
+
+name: Unit testing runner
+
+#---------- 1. Definition of activation events
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+    
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
