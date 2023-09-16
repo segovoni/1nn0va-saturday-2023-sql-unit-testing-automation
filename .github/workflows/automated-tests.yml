@@ -36,3 +36,13 @@ jobs:
           SA_PASSWORD: 3uuiCaKxfbForrK
 
     steps:
+
+#---------- 2.1 Save the container ID into the environment variable ENV_CONTAINER_ID
+
+      - name: Set environment variable ENV_CONTAINER_ID
+        run: echo "ENV_CONTAINER_ID=$(docker ps --all --filter status=running --no-trunc --format "{{.ID}}")" >> $GITHUB_ENV
+
+      - name: Sleep for 20s
+        uses: juliangruber/sleep-action@v1
+        with:
+          time: 20s
