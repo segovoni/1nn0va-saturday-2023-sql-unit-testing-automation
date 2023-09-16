@@ -1,9 +1,13 @@
 -------------------------------------------------------------------------
--- Demo:       SQL Server CI/CD                                         -
---                                                                      -
--- Script:     Create stored procedure usp_Raiserror_SafetyStockLevel   -
--- Author:     Sergio Govoni                                            -
--- Notes:      --                                                       -
+-- Event:      1nn0va Saturday 2023 - September 30                     --
+--             https://1nn0vasat2023.1nn0va.it/agenda.html             --
+--                                                                     --
+-- Session:    SQL Server unit testing with tSQLt, Docker and          --
+--             GitHub Actions                                          --
+--                                                                     --
+-- Script:     Create stored procedure usp_Raiserror_SafetyStockLevel  --
+-- Author:     Sergio Govoni                                           --
+-- Notes:      --                                                      --
 -------------------------------------------------------------------------
 
 USE [AdventureWorks2017];

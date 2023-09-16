@@ -1,9 +1,13 @@
 -------------------------------------------------------------------------
--- Demo:       SQL Server CI/CD                                         -
---                                                                      -
--- Script:     Test case: try to insert multiple rows                   -
--- Author:     Sergio Govoni                                            -
--- Notes:      --                                                       -
+-- Event:      1nn0va Saturday 2023 - September 30                     --
+--             https://1nn0vasat2023.1nn0va.it/agenda.html             --
+--                                                                     --
+-- Session:    SQL Server unit testing with tSQLt, Docker and          --
+--             GitHub Actions                                          --
+--                                                                     --
+-- Script:     Test case: try to insert multiple rows                  --
+-- Author:     Sergio Govoni                                           --
+-- Notes:      --                                                      --
 -------------------------------------------------------------------------
 
 SET QUOTED_IDENTIFIER ON;
