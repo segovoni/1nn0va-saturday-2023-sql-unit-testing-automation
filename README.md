@@ -8,6 +8,6 @@ You can repeat the demo in your own GitHub repository by following the steps des
 
 ## Summary
 
-Unit tests developed for a SQL Server solution are not just meant to verify that requirements have been met once, prior to release. The real game changer is represented by the possibility of repeating the checks during the development of new code and during the bug fixing process. The repeatability of the tests provides the ability to automate them, an essential condition for integrating automatic tests within a Continuous Integration platform.
+The unit tests developed to test SQL Server objects are not only intended to verify that the requirements have been met once, before release; the real game changer is represented by the possibility of repeating checks during the development of new code and bug fixing. The repeatability of tests provides the possibility of automating them, an essential condition for integrating automatic tests within a Continuous Integration platform. In this session, full of demos, we will describe how to automate the testing of one or more SQL Server objects using tSQLt, Docker, and GitHub Action!
 
 Have fun with SQL Server, tSQLt, Docker and GitHub Actions!
