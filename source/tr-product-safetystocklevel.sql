@@ -21,7 +21,7 @@ BEGIN
      Avoid to insert products with safety stock level lower than 10!
   */
   
-  /*
+  
   DECLARE @SafetyStockLevel SMALLINT;
 
   SELECT
@@ -35,8 +35,8 @@ BEGIN
     EXEC Production.usp_Raiserror_SafetyStockLevel
       @Message = 'Safety stock level cannot be lower than 10!';
   END;
-  */
-
+  
+  /*
   -- Testing all rows in the Inserted virtual table
   IF EXISTS (
              SELECT
@@ -51,5 +51,6 @@ BEGIN
     EXEC Production.usp_Raiserror_SafetyStockLevel
       @Message = 'Safety stock level cannot be lower than 10!';
   END;
+  */
 END;
 GO
