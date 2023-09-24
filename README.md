@@ -1,3 +1,5 @@
+[![Unit testing runner](https://github.com/segovoni/1nn0va-saturday-2023-sql-unit-testing-automation/actions/workflows/automated-tests.yml/badge.svg)](https://github.com/segovoni/1nn0va-saturday-2023-sql-unit-testing-automation/actions/workflows/automated-tests.yml)
+
 # SQL Server unit testing with tSQLt, Docker and GitHub Actions 
 
 This repository contains the demos of the session "SQL Server unit testing with tSQLt, Docker and GitHub Actions" that I have done at the [1nn0va Saturday 2023](https://1nn0vasat2023.1nn0va.it/agenda.html) event!
